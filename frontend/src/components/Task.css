@@ -1,0 +1,59 @@
+.task-container {
+  background-color: white;
+  /* margin-bottom: 16px; */
+  cursor: grab;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card {
+  background-color: white;
+  cursor: grab;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  /* margin: 16px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  padding: 16px;
+  flex-grow: 1;
+  min-height: 150px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-description {
+  margin: 0;
+  color: #555;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* Show 3 lines */
+  overflow: hidden;
+}
+
+.card-actions {
+  background-color: #f1f1f1;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-icon {
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.action-icon:hover {
+  color: #0056b3;
+}

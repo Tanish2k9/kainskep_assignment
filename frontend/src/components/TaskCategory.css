@@ -1,0 +1,27 @@
+.task-category-conntainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 400px;
+  flex-shrink: 0;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(255, 0, 0, 0.3),
+    /* Red */ 0 4px 10px rgba(0, 255, 0, 0.3),
+    /* Green */ 0 6px 15px rgba(0, 0, 255, 0.3); /* Blue */
+  transition: transform 0.2s;
+  /* box-shadow: -1px 0 1px rgba(0, 0, 0, 0.3), 1px 0 1px rgba(0, 0, 0, 0.3); */
+}
+.tc-status {
+  /* border: 1px solid green; */
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 20px 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}

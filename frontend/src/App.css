@@ -1,0 +1,11 @@
+.global-wrapper.main-container {
+  background-color: white;
+}
+.task-container-wrapper {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  min-height: calc(100vh - 70px);
+  overflow-x: scroll;
+  padding: 16px 0px;
+}
